@@ -1,27 +1,17 @@
-FROM node:20.4.0-alpine as sk-build
-WORKDIR /usr/src/app
-
-ARG TZ=Europe/Stockholm
-ARG PUBLIC_HELLO
-
-COPY . /usr/src/app
-RUN apk --no-cache add curl tzdata
-RUN cp /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-RUN npm install
-RUN npm run build
-
 FROM node:20.4.0-alpine
-WORKDIR /usr/src/app
 
-ARG TZ=Europe/Stockholm
-RUN apk --no-cache add curl tzdata
-RUN cp /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+WORKDIR /app
 
-COPY --from=sk-build /usr/src/app/package.json /usr/src/app/package.json
-COPY --from=sk-build /usr/src/app/package-lock.json /usr/src/app/package-lock.json
-RUN npm i --only=production
+COPY package.json /app
+COPY package-lock.json /app
 
-COPY --from=sk-build /usr/src/app/build /usr/src/app/build
+RUN npm ci
+
+COPY . /app
+
+RUN npm run build
+RUN npm install -g serve
 
 EXPOSE 3000
-CMD ["node", "build/index.js"]
+
+CMD ["serve", "-s", "build"]
