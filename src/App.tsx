@@ -1,4 +1,4 @@
-import { act, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import deputesData from "./deputes.json";
 import './App.css';
 import { Tweet } from 'react-tweet'
