@@ -1,0 +1,84 @@
+[
+    {
+        "name" : "François Ruffin",
+        "parti" : "Divers gauche",
+        "circonscription" : "Somme",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Fran%C3%A7ois_Ruffin_%28cropped%29.jpg/640px-Fran%C3%A7ois_Ruffin_%28cropped%29.jpg",
+        "propose" : true,
+        "tweet" : "https://x.com/BFMTV/status/1801173058494820625"        
+    },
+    {
+        "name" : "Olivier Faure",
+        "parti" : "Socialiste",
+        "circonscription" : "Seine-et-Marne",
+        "img" : "https://static.actu.fr/uploads/2018/03/faure-960x640.jpg",
+        "propose" : true,
+        "tweet" : "https://x.com/libe/status/1810673081880314365"
+    },
+    {
+        "name" : "Clemence Guetté",
+        "parti" : "La France Insoumise",
+        "circonscription" : "Seine-et-Marne",
+        "img" : "https://pbs.twimg.com/profile_images/1778783133527117825/FJ-KfIX6_400x400.jpg",
+        "propose" : true,
+        "tweet" : "https://x.com/lavoixdunord/status/1810722743421165966"
+    },
+    {
+        "name" : "Charles de Courson",
+        "parti" : "UDI",
+        "circonscription" : "Marne",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Charles_De_Courson.JPG/1200px-Charles_De_Courson.JPG",
+        "propose" : true,
+        "tweet" : "https://x.com/UnionArdennais/status/1810286469241569522"
+    },
+    {
+        "name" : "Boris Vallaud",
+        "parti" : "Socialiste",
+        "circonscription" : "Landes",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Boris_Vallaud_en_2023.jpg/640px-Boris_Vallaud_en_2023.jpg",
+        "propose" : true,
+        "tweet" : "https://x.com/PaulLarrouturou/status/1803795102218797265"
+    },
+    {
+        "name" : "Clementine Autain",
+        "parti" : "La France Insoumise",
+        "circonscription" : "Seine-Saint-Denis",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Clementine-Autain.jpg/1200px-Clementine-Autain.jpg",
+        "propose" : true,
+        "tweet" : "https://x.com/BFMTV/status/1803536369945297249"
+    },
+    {
+        "name"  : "Fabien Roussel",
+        "parti" : "PCF",
+        "circonscription" : "Nord",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/a/ae/Roussel_Fabien_1.jpg",
+        "propose" : true,
+        "tweet" : "https://x.com/BFMTV/status/1801173058494820625"
+    },
+    {
+        "name" : "Sandrine Rousseau",
+        "parti" : "EELV",
+        "circonscription" : "Nord",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sandrine_Rousseau_20210819_%28cropped%29.jpg/800px-Sandrine_Rousseau_20210819_%28cropped%29.jpg",
+        "propose" : true,
+        "tweet" : "https://x.com/le_Parisien/status/1810576967323861408"
+    },
+
+
+    {
+        "name" : "Marine Le Pen",
+        "parti" : "Rassemblement National",
+        "circonscription" : "Pas-de-Calais",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/e/e1/Le_Pen%2C_Marine-9586_%28cropped%29.jpg",
+        "propose" : false,
+        "tweet" : ""
+    },
+    {
+        "name" : "Jean Lassalle",
+        "parti" : "Indépendant",
+        "circonscription" : "Pyrénées-Atlantiques",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jean_Lassalle_03_%28cropped%29.jpg/1200px-Jean_Lassalle_03_%28cropped%29.jpg",
+        "propose" : false,
+        "tweet" : ""
+    }
+]
